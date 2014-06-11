@@ -1,0 +1,227 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EE8C9CA17300C3C000C524C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8C9C917300C3C000C524C /* main.cpp */; };
+		9EE8C9CC17300C3D000C524C /* Fruity.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9EE8C9CB17300C3D000C524C /* Fruity.1 */; };
+		9EE8C9D417300E58000C524C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE8C9D217300E58000C524C /* GLUT.framework */; };
+		9EE8C9D517300E58000C524C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE8C9D317300E58000C524C /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9EE8C9C317300C3C000C524C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				9EE8C9CC17300C3D000C524C /* Fruity.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9EE8C9C517300C3C000C524C /* Fruity */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fruity; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE8C9C917300C3C000C524C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9EE8C9CB17300C3D000C524C /* Fruity.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Fruity.1; sourceTree = "<group>"; };
+		9EE8C9D217300E58000C524C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GLUT.framework; sourceTree = "<group>"; };
+		9EE8C9D317300E58000C524C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGL.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EE8C9C217300C3C000C524C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE8C9D417300E58000C524C /* GLUT.framework in Frameworks */,
+				9EE8C9D517300E58000C524C /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EE8C9BA17300C3C000C524C = {
+			isa = PBXGroup;
+			children = (
+				9EE8C9D217300E58000C524C /* GLUT.framework */,
+				9EE8C9D317300E58000C524C /* OpenGL.framework */,
+				9EE8C9C817300C3C000C524C /* Fruity */,
+				9EE8C9C617300C3C000C524C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EE8C9C617300C3C000C524C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE8C9C517300C3C000C524C /* Fruity */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EE8C9C817300C3C000C524C /* Fruity */ = {
+			isa = PBXGroup;
+			children = (
+				9EE8C9C917300C3C000C524C /* main.cpp */,
+				9EE8C9CB17300C3D000C524C /* Fruity.1 */,
+			);
+			path = Fruity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EE8C9C417300C3C000C524C /* Fruity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE8C9CF17300C3D000C524C /* Build configuration list for PBXNativeTarget "Fruity" */;
+			buildPhases = (
+				9EE8C9C117300C3C000C524C /* Sources */,
+				9EE8C9C217300C3C000C524C /* Frameworks */,
+				9EE8C9C317300C3C000C524C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fruity;
+			productName = Fruity;
+			productReference = 9EE8C9C517300C3C000C524C /* Fruity */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EE8C9BC17300C3C000C524C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Zen Garden Apartments";
+			};
+			buildConfigurationList = 9EE8C9BF17300C3C000C524C /* Build configuration list for PBXProject "Fruity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EE8C9BA17300C3C000C524C;
+			productRefGroup = 9EE8C9C617300C3C000C524C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EE8C9C417300C3C000C524C /* Fruity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EE8C9C117300C3C000C524C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE8C9CA17300C3C000C524C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9EE8C9CD17300C3D000C524C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9EE8C9CE17300C3D000C524C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9EE8C9D017300C3D000C524C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EE8C9D117300C3D000C524C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EE8C9BF17300C3C000C524C /* Build configuration list for PBXProject "Fruity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE8C9CD17300C3D000C524C /* Debug */,
+				9EE8C9CE17300C3D000C524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE8C9CF17300C3D000C524C /* Build configuration list for PBXNativeTarget "Fruity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE8C9D017300C3D000C524C /* Debug */,
+				9EE8C9D117300C3D000C524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EE8C9BC17300C3C000C524C /* Project object */;
+}
